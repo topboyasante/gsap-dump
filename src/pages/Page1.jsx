@@ -1,5 +1,5 @@
 import React , {useRef,useEffect} from 'react'
-import ReactLogo from '../src/assets/react.svg'
+import ReactLogo from '../assets/react.svg'
 import { gsap,Power3 } from 'gsap'
 import { Link } from 'react-router-dom'
 
@@ -39,7 +39,7 @@ function Page1() {
         ref={logo=> {logoItem=logo}} className='react-icon'
         />
         <p className='headerText'>Welcome to GSAP.</p>
-        <Link to={'page2'}>
+        <Link to={'/page2'}>
             <p className='button'>{`Click Here to Go to the next animation.->`}</p>
         </Link>
     </main>

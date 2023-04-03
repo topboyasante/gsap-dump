@@ -102,7 +102,7 @@ function Page2() {
         <div className="circle yellow"></div>
         <div className="circle red" onClick={circleExpanded !== true ?expandCircle:reduceCircle}></div>
         <div className="circle blue"></div>
-        <Link to={'page3'}>
+        <Link to={'/page3'}>
             <p className='button'>{`Click Here to Go to the next animation. 
             But Before that click the red circle!->`}</p>
         </Link>

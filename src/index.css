@@ -1,0 +1,43 @@
+html{
+  background-color: #242424;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.centerContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+.react-icon{
+  opacity: 0;
+  width: 100px;
+}
+.headerText{
+  opacity: 0;
+}
+.button{
+  color: white;
+  padding: 5px;
+  opacity: 0;
+}
+.circle{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #fdcf51;
+  margin: 50px;
+  opacity: 100;
+}
+.circle.red{
+  background-color: #fd5151;
+}
+.circle.blue{
+  background-color: #51a0fd;
+}
+.visibility-hidden{
+  visibility: hidden;
+}

@@ -59,15 +59,15 @@ function Page5() {
 
   return (
     <main className='p-5'>
-        <div className="a bg-red-500 w-[200px] h-[200px] my-[5em] p-5">
+        <div className="a bg-red-500 w-[200px] h-[200px] my-[5em]"></div>
+        <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
+        <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
+        <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
+        <div className="c bg-green-500 w-[200px] h-[200px] my-[5em] p-3">
             <Link to={'/page6'}>
                 <p className='text-white'>{`Click Here to Go to the next animation! ->`}</p>
             </Link>
         </div>
-        <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
-        <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
-        <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
-        <div className="c bg-green-500 w-[200px] h-[200px] my-[5em]"></div>
         <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
         <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>
         <div className="b bg-yellow-500 w-[200px] h-[200px] my-[5em]"></div>

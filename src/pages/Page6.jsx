@@ -1,6 +1,7 @@
 import { Power3, gsap } from 'gsap'
 import React, { useEffect } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { Link } from 'react-router-dom'
 
 function Page6() {
 
@@ -50,6 +51,11 @@ function Page6() {
     <main>
         <p className="text-white fixed bg-[#242424] w-screen h-[10vh] z-[50] flex justify-center items-center text-syne text-4xl">Scroll Down!</p>
         <div className="mainItem w-[100%] h-[500vh] bg-white relative">
+        </div>
+        <div className="text-white bg-[#242424] w-screen h-[10vh] z-[50] flex justify-center items-center text-syne text-4xl">
+            <Link to={'/'}>
+                <p className='text-white'>{`Click Here to Go to the next animation! ->`}</p>
+            </Link>
         </div>
     </main>
   )

@@ -41,7 +41,7 @@ function Page3() {
         ease:Power2.easeOut,
     })
 
-  })
+  },[])
   
 
   return (

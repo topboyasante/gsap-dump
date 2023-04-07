@@ -53,7 +53,7 @@ function Page6() {
         <div className="mainItem w-[100%] h-[500vh] bg-white relative">
         </div>
         <div className="text-white bg-[#242424] w-screen h-[10vh] z-[50] flex justify-center items-center text-syne text-4xl">
-            <Link to={'/'}>
+            <Link to={'/page7'}>
                 <p className='text-white'>{`Click Here to Go to the next animation! ->`}</p>
             </Link>
         </div>

@@ -34,8 +34,6 @@ function Page5() {
     
                         scrub:true,
                         // Locks the animation to the scroll bar. set it to a number to determine the number of seconds to catch up
-    
-                       markers:true
                 },
             }
         )

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import "../text-scroll.css"
+import { Link } from 'react-router-dom'
 
 
 function Page9() {
@@ -40,7 +41,11 @@ function Page9() {
         </div>
         <div className="scrolling-text">
             scroll to animate
+            <Link to={'/page10'}>
+                <p className='text-white'>{`Click Here to Go to the next animation! ->`}</p>
+            </Link>
         </div>
+       
     </main>
   )
 }
